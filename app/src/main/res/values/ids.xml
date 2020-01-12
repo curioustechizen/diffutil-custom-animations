@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="circle_origin" type="id" />
+    <item name="circle_1" type="id" />
+    <item name="circle_2" type="id" />
+    <item name="circle_3" type="id" />
+    <item name="circle_4" type="id" />
+    <item name="circle_5" type="id" />
+    <item name="circle_6" type="id" />
+    <item name="circle_7" type="id" />
+</resources>

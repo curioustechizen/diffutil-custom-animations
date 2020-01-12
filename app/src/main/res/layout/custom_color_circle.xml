@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.mikhaellopez.circleview.CircleView
+        android:id="@+id/circle_center"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        app:cv_color="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.mikhaellopez.circleview.CircleView
+        android:id="@+id/circle_one"
+        android:layout_width="@dimen/circle_size"
+        android:layout_height="@dimen/circle_size"
+        app:cv_color="@color/purple"
+        app:layout_constraintCircle="@id/circle_center"
+        app:layout_constraintCircleAngle="5"
+        app:layout_constraintCircleRadius="96dp"
+        tools:ignore="MissingConstraints" />
+
+    <com.mikhaellopez.circleview.CircleView
+        android:id="@+id/circle_two"
+        android:layout_width="@dimen/circle_size"
+        android:layout_height="@dimen/circle_size"
+        app:cv_color="@color/indigo"
+        app:layout_constraintCircle="@id/circle_center"
+        app:layout_constraintCircleAngle="56"
+        app:layout_constraintCircleRadius="96dp"
+        tools:ignore="MissingConstraints" />
+
+    <com.mikhaellopez.circleview.CircleView
+        android:id="@+id/circle_three"
+        android:layout_width="@dimen/circle_size"
+        android:layout_height="@dimen/circle_size"
+        app:cv_color="@color/blue"
+        app:layout_constraintCircle="@id/circle_center"
+        app:layout_constraintCircleAngle="107"
+        app:layout_constraintCircleRadius="96dp"
+        tools:ignore="MissingConstraints" />
+
+    <com.mikhaellopez.circleview.CircleView
+        android:id="@+id/circle_four"
+        android:layout_width="@dimen/circle_size"
+        android:layout_height="@dimen/circle_size"
+        app:cv_color="@color/green"
+        app:layout_constraintCircle="@id/circle_center"
+        app:layout_constraintCircleAngle="158"
+        app:layout_constraintCircleRadius="96dp"
+        tools:ignore="MissingConstraints" />
+
+    <com.mikhaellopez.circleview.CircleView
+        android:id="@+id/circle_five"
+        android:layout_width="@dimen/circle_size"
+        android:layout_height="@dimen/circle_size"
+        app:cv_color="@color/yellow"
+        app:layout_constraintCircle="@id/circle_center"
+        app:layout_constraintCircleAngle="209"
+        app:layout_constraintCircleRadius="96dp"
+        tools:ignore="MissingConstraints" />
+
+    <com.mikhaellopez.circleview.CircleView
+        android:id="@+id/circle_six"
+        android:layout_width="@dimen/circle_size"
+        android:layout_height="@dimen/circle_size"
+        app:cv_color="@color/orange"
+        app:layout_constraintCircle="@id/circle_center"
+        app:layout_constraintCircleAngle="260"
+        app:layout_constraintCircleRadius="96dp"
+        tools:ignore="MissingConstraints" />
+
+    <com.mikhaellopez.circleview.CircleView
+        android:id="@+id/circle_seven"
+        android:layout_width="@dimen/circle_size"
+        android:layout_height="@dimen/circle_size"
+        app:cv_color="@color/red"
+        app:layout_constraintCircle="@id/circle_center"
+        app:layout_constraintCircleAngle="311"
+        app:layout_constraintCircleRadius="96dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

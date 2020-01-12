@@ -1,0 +1,3 @@
+rootProject.name='DiffUtil Samples'
+include ':app'
+include ':atomic-diff-util'
